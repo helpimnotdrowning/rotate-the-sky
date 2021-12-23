@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "rotatethesky",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Rotate the Sky",
+  "description": "its in the name",
   "authors": [
-    "Me!"
+    "helpimnotdrowning"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/helpimnotdrowning",
+    "sources": "https://github.com/helpimnotdrowning/rotate-the-sky/"
   },
 
   "license": "CC0-1.0",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.example.RotateTheSky"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "rotatethesky.mixins.json"
   ],
 
   "depends": {
